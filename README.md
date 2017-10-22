@@ -8,7 +8,7 @@ Dockerization of ACME client implementation that can be used to automate creatin
 - ACME (Auomated Certificate Management Environment): https://en.wikipedia.org/wiki/Automated_Certificate_Management_Environment
 - Let's Encrypt: https://letsencrypt.org/how-it-works/
 
-## Usage with Docker Compose
+## With Docker Compose
 
 ### Docker Compose file
 
@@ -63,7 +63,7 @@ Make sure the private keys are placed under certs directory. If you don't have t
 docker-compose run --rm ssl-agent renew
 ```
 
-## Usage with Docker command (not using Docker Compose)
+## Without Docker Compose
 
 Follow the same notes as described for creation and renewal with docker compose above.
 
