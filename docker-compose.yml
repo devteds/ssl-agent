@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+
+  ssl-agent:
+    build: .
+    image: devteds/ssl-agent
+    volumes:
+      - ".:/ssl-agent/home"

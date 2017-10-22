@@ -1,0 +1,17 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    acme-client (0.6.1)
+      faraday (~> 0.9, >= 0.9.1)
+    faraday (0.13.1)
+      multipart-post (>= 1.2, < 3)
+    multipart-post (2.0.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  acme-client (~> 0.6.1)
+
+BUNDLED WITH
+   1.15.4
